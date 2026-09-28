@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muonga Kafuti - Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the World of Web Programming</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#plan">Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+        <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+    </nav>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Muonga Kafuti (Student ID: 202512708). I am currently studying Introduction to Web Technologies. I am passionate about learning how the web works and acquiring practical web development skills to build modern, interactive, and user-friendly websites.</p>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="content-section">
+            <h2>My Top 3 Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Music</li>
+                <li>Watching movies</li>
+            </ul>
+        </section>
+
+        <!-- Learning Plan Section -->
+        <section id="plan" class="content-section">
+            <h2>My Learning Plan</h2>
+            <ol>
+                <li>Master HTML5 structure and semantic tags.</li>
+                <li>Learn CSS styling, Flexbox, and responsive layouts.</li>
+                <li>Practice embedding media and building contact forms.</li>
+            </ol>
+
+            <table>
+                <caption>Weekly Web Learning Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Task</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML Semantics</td>
+                        <td>Structure semantic elements</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS Layouts</td>
+                        <td>Style gallery and navigation</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Media & Forms</td>
+                        <td>Embed video, audio & form</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="images/photo1.jpeg" alt="Photo of Muonga Kafuti">
+                    <figcaption>Profile Photo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo2.jpeg" alt="Photo 2">
+                    <figcaption>Photo 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo3.jpeg" alt="Photo 3">
+                    <figcaption>Photo 3</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+
+            <article>
+                <h3>Self Introduction Video</h3>
+                <video controls width="320">
+                    <source src="videos/intro.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+                <p><strong>Summary:</strong> My name is Muonga Kafuti. In this short video, I introduce myself, my programme of study, and the web skills I hope to learn during this course.</p>
+            </article>
+
+            <article>
+                <h3>Voice Recording</h3>
+                <audio controls>
+                    <source src="videos/audio.m4a" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p><strong>Summary:</strong> A short voice recording sharing my experience and expectations for Web Technologies.</p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <p><em>Note: This form is for browser demonstration only.</em></p>
+            <form action="#">
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="topic">Topic:</label><br>
+                    <input type="text" id="topic" name="topic">
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </p>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Muonga Kafuti - Web Technologies Assignment.</p>
+    </footer>
+
+</body>
+</html>
